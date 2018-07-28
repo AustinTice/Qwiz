@@ -13,17 +13,17 @@
 }
 
 #question{
-  margin-bottom: 50px;
-  font-size: 4em;
+  margin-bottom: 150px;
+  font-size: 5em;
   color: #777;
   font-family: Arial;
 }
 
 #answer{
-  height: 50px;
-  width: 300px;
-  font-size: 45px;
-  text-align: right;
+  height: 75px;
+  width: 400px;
+  font-size: 65px;
+  text-align: center;
   outline-style: none;
   padding: 5px;
   border: 3px dashed #222;
@@ -34,7 +34,7 @@
   padding: 10px 15px;
   color: #fff;
   background: #e2e2e2;
-  width: 300px;
+  width: 415px;
   font-size: 1.3em;
   outline-style: none;
   cursor: pointer;
