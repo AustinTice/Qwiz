@@ -3,7 +3,9 @@ let answer = document.getElementById("answer");
 let button = document.getElementById("submit");
 let randomNumber1 = Math.floor(Math.random() * 20);
 let randomNumber2 = Math.floor(Math.random() * 20);
+// waiting for the submit button to be clicked to which we'll be running the checkAnswer function
 button.addEventListener("click", checkAnswer);
+// init the sign to be an empty string so that later we can manip this value at the global level.
 let signPicked = "";
 
 // Checking to see if the window has loaded and once it has we will grab the first question.
