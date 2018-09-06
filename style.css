@@ -1,4 +1,10 @@
-*{
+/*
+TODO:
+  - Make a pop up screen that says correct or incorrect whenever an answer is input
+  - Adjust UI to complement a Mobile
+*/
+
+* {
   margin: 0 auto;
   padding: 0;
 }
@@ -14,7 +20,7 @@
 
 #question{
   margin-bottom: 150px;
-  font-size: 5em;
+  font-size: 6em;
   color: #777;
   font-family: Arial;
 }
@@ -40,8 +46,10 @@
   cursor: pointer;
 }
 
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+.Right{
+
+}
+
+.Wrong{
+
 }

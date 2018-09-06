@@ -43,8 +43,8 @@ function getRandomSign(){
 // Allows for new random numbers to be chosen for each question
 // by shuffling each of the numbers that will be presented
 function shuffleRandomNumber(){
-  randomNumber1 = Math.floor(Math.random() * 20);
-  randomNumber2 = Math.floor(Math.random() * 20);
+  randomNumber1 = Math.floor(Math.random() * 10);
+  randomNumber2 = Math.floor(Math.random() * 10);
 }
 
 // This function contains the code that resets the problems after each and every answer is submitted.
